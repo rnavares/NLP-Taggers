@@ -1,0 +1,5 @@
+cat hamlet.txt | bin/tree-tagger -token -lemma lib/english-utf8.par
+
+cat hamlet.txt | tr "[[:blank:]]" "[,]" "[\n*]"
+
+sed "s/,/ ,/g" hamlet.txt

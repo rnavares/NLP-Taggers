@@ -1,0 +1,1 @@
+cat hamlet.txt | bin/tree-tagger -token -lemma lib/english-utf8.par
